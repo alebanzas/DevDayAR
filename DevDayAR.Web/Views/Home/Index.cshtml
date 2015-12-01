@@ -1,162 +1,104 @@
 ﻿@{
-    Layout = null;
+    ViewData["Title"] = "Home Page";
 }
-<!DOCTYPE html>
-<html class="wf-jafdomustitlingweb-n4-active wf-jafberninasanscomp-n4-active wf-jafberninasans-n3-active wf-jafberninasans-i3-active wf-jafberninasans-n6-active wf-active">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>DevDayAR 2015</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
-    <script src="/lib/ekp1paj.js"></script>
-    <style type="text/css">
-        .tk-jaf-bernina-sans {
-            font-family: "jaf-bernina-sans",sans-serif;
-        }
 
-        .tk-jaf-bernina-sans-comp {
-            font-family: "jaf-bernina-sans-comp",sans-serif;
-        }
-
-        .tk-jaf-domus-titling-web {
-            font-family: "jaf-domus-titling-web",sans-serif;
-        }
-    </style>
-    <script>try{Typekit.load();}catch(e){}</script>
-    <link rel="shortcut icon" href="/favicon.ico">
-    @*
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content=">
-        <meta itemprop="image" content="/img/js.eu.png">
-        <meta name="twitter:image" content="/img/js.eu.png">
-        <meta property="og:image" content="/img/js.eu.png">
-        <meta name="twitter:creator" content="">
-        <meta itemprop="name" content="DevDayAR 2015">
-        <meta name="twitter:title" content="DevDayAR 2015">
-        <meta property="og:title" content="DevDayAR 2015">
-
-        <meta name="description" itemprop="description" content="DevDayAR, the labour-of-love conference for the JS community in Europe.">
-        <meta name="twitter:description" content="DevDayAR, the labour-of-love conference for the JS community in Europe.">
-        <meta property="og:description" content="DevDayAR, the labour-of-love conference for the JS community in Europe.">
-    *@
-</head>
-
-<body class="start">
-    <header class="site-header bg-blue-pat bg-blue-pat-header">
-        <div class="wrapper wrapper-logo wrapper-space-between">
-            <div class="item-50">
-                <div class="site-logo">
-                    <a href="/" title="Home">
-                        <img src="/images/logo.png" style="width: 100px;">
-                    </a>
-                </div>
-            </div>
-            <div class="item-25">
-                <aside class="site-aside font-bernina">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/ASP-NET-Banners-01.png" alt="ASP.NET" class="img-responsive" />
+            <div class="container">
+                <div class="carousel-caption">
                     <p>
-                        Dic 12 - 2015 <br>
-                        Buenos Aires, Argentina
+                        Learn how to build ASP.NET apps that can run anywhere.
+                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
+                            Learn More
+                        </a>
                     </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/Banner-02-VS.png" alt="Visual Studio" class="img-responsive" />
+            <div class="container">
+                <div class="carousel-caption">
                     <p>
-                        <a href="/registrate" target="_blank" class="btn " title="Ticket Sale starts February 1st">Registrate</a>
+                        There are powerful new features in Visual Studio for building modern web apps.
+                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
+                            Learn More
+                        </a>
                     </p>
-                </aside>
-            </div>
-        </div>
-        <div class="js-sticky-nav js-sticky-nav-blue">
-            <div class="wrapper">
-                <div class="item-50">
-
-                    <nav class="site-nav">
-                        <a href="/" class="nav-active icon" title="Home">
-                            <img src="/images/logo.png" style="width: 40px;">
-                        </a>
-                        @*
-                        <a href="/sponsors" title="Sponsors">Sponsors</a>
-                        <a href="/lugar" title="Lugar">Lugar</a>
-                        <a href="/agenda" title="Agenda">Agenda</a>
-                        *@
-                        <a href="/registrate" title="Registrate">Registrate</a>
-                    </nav>
-                </div>
-            </div>
-        </div><div class="js-sticky-nav js-sticky-nav-blue" style="display: none;">
-            <div class="wrapper">
-                <div class="item-50">
-
-                    <nav class="site-nav">
-                        <a href="/" class="nav-active icon" title="Home">
-                            <img src="/images/logo.png" style="width: 40px;">
-                        </a>
-                        @*
-                        <a href="/sponsors" title="Sponsors">Sponsors</a>
-                        <a href="/lugar" title="Lugar">Lugar</a>
-                        <a href="/agenda" title="Agenda">Agenda</a>
-                        *@
-                        <a href="/registrate" title="Registrate">Registrate</a>
-                    </nav>
-                </div>
-                <div class="item-25 hide-mobile">
                 </div>
             </div>
         </div>
-    </header>
-
-
-    <section class="bg-pink-white-off">
-
-        <article class="wrapper wrapper-post">
-            <div class="item-50 item_deco">
-                <figure>
-                    <img src="" width="400" height="400">
-                </figure>
-            </div>
-            <div class="item-50 item-content">
-                <header>
-
-                    <span class="date">
-
-                        12 Diciembre 2015
-
-                    </span>
-
-                    <h2>
-                        <a href="">
-                            Primer DevDay de Argentina!
+        <div class="item">
+            <img src="~/images/ASP-NET-Banners-02.png" alt="Package Management" class="img-responsive" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <p>
+                        Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
+                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
+                            Learn More
                         </a>
-                    </h2>
-                </header>
-                <p>El sábado 12 de diciembre, de 09:15 a 18:30, las comunidades de Javascript, Java, PHP y .NET, los invitamos al primer encuentro multi-comunidad de Argentina! Esta vez nos presta la oficina Microsoft</p>
-                <ul>
-                    <li>Time: 09:15–18:30</li>
-                    <li>Lugar: <a href="http://binged.it/1LwCdvG">Microsoft Argentina, Bouchard 710</a> (entre Viamonte y Córdoba)</li>
-                </ul>
-                <div class="embed_container">
-                    <a href="http://binged.it/1LwCdvG" target="_blank">
-                        <img width="600" src="http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/-34.5990676%2C-58.3717605/14?mapSize=600,300&format=png&pushpin=-34.5990676,-58.3717605;64;MS&key=AkhkxBM5s96zhgeUm09terjvVxufChiG6P7Eae-ZARJkjOrhCjUZV05eMHMuiisY" alt="Bing Map of -34.5990676,-58.3717605">
-                    </a>
+                    </p>
                 </div>
-                <h2 id="see-you-there">Nos vemos!</h2>
-                <p>Gracias,</p>
-            </div>
-        </article>
-
-    </section>
-    <footer class="site-footer">
-        <div class="wrapper">
-            <div class="item-87-5">
-                <p class="links-light">
-                    DevDayAR welcomes everyone, and defends you from harassment.
-                    @*<br class="show-mobile">
-                    <a href="/codeofconduct">Código de conducta</a> |
-                    <a href="/accessibility">Accesibilidad</a>*@
-                </p>
             </div>
         </div>
-    </footer>
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
-    <script src="/lib/app.js"></script>
+        <div class="item">
+            <img src="~/images/Banner-01-Azure.png" alt="Microsoft Azure" class="img-responsive" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <p>
+                        Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
+                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                            Learn More
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-</body>
-</html>
+<div class="row">
+    <div class="col-md-3">
+        <h2>Application uses</h2>
+        <ul>
+            <li>Sample pages using ASP.NET 5 (MVC 6)</li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518007">Gulp</a> and <a href="http://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side resources</li>
+            <li>Theming using <a href="http://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>New concepts</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of ASP.NET 5</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Fundamentals in ASP.NET 5</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517849">Client-Side Development using npm, Bower and Gulp</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517850">Develop on different platforms</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Customize app</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398600">Add Controllers and Views</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398602">Add Data using EntityFramework</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398603">Add Authentication using Identity</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517848">Manage client-side packages using Bower/ Gulp</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Deploy</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517851">Run your app locally</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517852">Run your app on .NET Core</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517853">Run commands in your app</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+        </ul>
+    </div>
+</div>
